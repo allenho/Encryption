@@ -1,0 +1,17 @@
+﻿<Window x:Class="Encryption.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Browse for Folder" Height="26" HorizontalAlignment="Left" Margin="154,20,0,0" Name="search" VerticalAlignment="Top" Width="108" Click="search_Click" />
+        <Label Content="Output Name" Height="27" HorizontalAlignment="Left" Margin="12,89,0,0" Name="outputLabel" VerticalAlignment="Top" Width="214" />
+        <Border BorderBrush="Silver" BorderThickness="1" HorizontalAlignment="Left" Margin="15,118,0,169" Name="border2" Width="146">
+            <TextBox Height="19" Name="outputBox" Width="142" TabIndex="1" />
+        </Border>
+        <Button Content="Begin Encryption" Height="46" HorizontalAlignment="Left" Margin="154,234,0,0" Name="encrypt" VerticalAlignment="Top" Width="152" Click="encrypt_Click" TabIndex="3" />
+        <ComboBox Height="26" HorizontalAlignment="Left" Margin="16,20,0,0" Name="fileNameBox" VerticalAlignment="Top" Width="128" />
+        <PasswordBox Height="24" HorizontalAlignment="Left" Margin="355,118,0,0" Name="keyBox" VerticalAlignment="Top" Width="105" TabIndex="2" />
+        <Label Content="Key" Height="27" HorizontalAlignment="Left" Margin="355,89,0,0" Name="keyLabel" VerticalAlignment="Top" Width="83" />
+        <Button Content="Test Button" Height="32" HorizontalAlignment="Left" Margin="383,252,0,0" Name="testEncrypt" VerticalAlignment="Top" Width="78" Click="testEncrypt_Click" />
+    </Grid>
+</Window>
