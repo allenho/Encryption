@@ -121,10 +121,5 @@ namespace Encryption
             }
             return fileName + "e";
         }
-
-        private void testEncrypt_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
